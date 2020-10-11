@@ -1,27 +1,22 @@
-# ClientesApp
+# Clientes-front
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
+Para pruebas, arrancar la aplicación spring "clientes-back", que se encuentra también en github
 
-## Development server
+## Temas de interés que podemos encontrar en este proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Paginación
+- Utilización de JWT (Json Web Token)
+- Api Rest
+- Seguridad : Autenticación y autorización de recursos.
 
-## Code scaffolding
+## Ejecutar la aplicación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- npm install
 
-## Build
+- arrancar el servidor (clientes-back)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+- npm run -- ng serve -o  / ng serve -o, dependiendo de si tenemos angular-cli global o no
 
-## Running unit tests
+  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+  
