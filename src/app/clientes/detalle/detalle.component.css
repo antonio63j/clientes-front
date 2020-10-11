@@ -1,0 +1,24 @@
+
+  /* Important part */
+.modal-dialog{
+  overflow-y: initial !important
+}
+.modal-body{
+  height: 750px;
+  overflow-y: auto;
+}
+
+.animation {
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+}
+
+.fadeIn {
+  animation-name: fedeIn;
+  -webkit-animation-name: fadeIn;
+}
+
+@keyframes fadeIn {0% {opacity:0}to {opacity:1}} 
+@-webkit-keyframes fadeIn {0% {opacity:0}to {opacity:1}} 
